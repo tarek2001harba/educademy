@@ -15,7 +15,7 @@ import PlansPage from './pages/Plans/PlansPage'
 import Course from './pages/Course/Course'
 import Classroom from './pages/Classroom/Classroom'
 import Lesson from './pages/Lesson/Lesson'
-import Blog from './pages/Blog/Blog'
+// import Blog from './pages/Blog/Blog'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 // styles imports
@@ -57,9 +57,9 @@ function App() {
           <Route exact path="/lesson">
             <Lesson />
           </Route>
-          <Route exact path="/blog">
+          {/* <Route exact path="/blog">
             <Blog />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>
